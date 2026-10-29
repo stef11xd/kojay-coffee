@@ -79,19 +79,39 @@ kojay-coffee/
 └── README.md
 ```
 
-## 🚀 Cara Menjalankan
+## 🚀 Cara Menjalankan Aplikasi
 
-1. Unduh atau clone repository.
-2. Buka folder proyek menggunakan editor kode.
-3. Jalankan aplikasi melalui web server lokal, misalnya Live Server.
-4. Buka alamat lokal yang diberikan oleh server.
-5. Pilih peran Kasir atau Owner/Manajer pada halaman login.
+### 1. Demo Online
 
-## 💾 Penyimpanan Data
+Aplikasi Kojay Coffee dapat diakses melalui tautan berikut:
 
-Aplikasi menggunakan LocalStorage untuk menyimpan data persediaan, produk, resep, dan riwayat. SessionStorage digunakan untuk menyimpan informasi peran selama sesi browser.
+**Live Demo:** https://stef11xd.github.io/kojay-coffee/
 
-Data tidak otomatis tersinkronisasi antarperangkat karena aplikasi belum menggunakan database server terpusat.
+1. Buka tautan demo melalui browser.
+2. Pilih peran Kasir atau Owner/Manajer pada halaman login.
+3. Gunakan akses demo yang tercantum pada bagian Akun Demo.
+
+### 2. Menjalankan Secara Lokal
+
+**Prasyarat:**
+- Browser modern, seperti Google Chrome atau Microsoft Edge.
+- Editor kode, seperti Visual Studio Code.
+- Ekstensi Live Server atau web server lokal lainnya.
+
+**Langkah instalasi:**
+
+1. Buka repository Kojay Coffee di GitHub.
+2. Unduh kode melalui menu **Code → Download ZIP**, lalu ekstrak file ZIP.
+3. Buka folder proyek di Visual Studio Code.
+4. Jalankan file `index.html` menggunakan Live Server.
+5. Buka alamat lokal yang diberikan oleh Live Server.
+6. Pilih peran Kasir atau Owner/Manajer pada halaman login.
+
+### 3. Informasi Penyimpanan Data
+
+Aplikasi menggunakan `localStorage` untuk menyimpan data aplikasi pada browser. Data tidak otomatis tersinkronisasi antara perangkat atau browser yang berbeda.
+
+**Catatan:** Demo online digunakan untuk demonstrasi proyek akademik dan bukan untuk transaksi bisnis sungguhan.
 
 ---
 
